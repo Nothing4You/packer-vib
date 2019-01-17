@@ -17,7 +17,7 @@ removed. You must set `vnc_disable_password` to `true` in your Packer template.
 Install Instructions
 ===================
     $ esxcli software acceptance set --level=CommunitySupported
-    $ esxcli software vib install -v http://github.com/umich-vci/packer-vib/releases/download/v1.0.0-1/packer.vib
+    $ esxcli software vib install -v https://github.com/umich-vci/packer-vib/releases/download/v1.0.0-1/packer.vib
 
 Build Instructions
 ===================
